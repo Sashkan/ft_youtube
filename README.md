@@ -1,25 +1,19 @@
-# ReduxSimpleStarter
+# ft_youtube
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is one of my first attempts to use React. All credits go to Stephen Grider and his awesome 
+[course](https://www.udemy.com/react-redux/)
+
+If you want to dive deeper and really learn React and Redux, I suggest you take some online tutorials :+1
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Just clone the repo, open it in your favourite IDE, look around, I made sure to comment as much as possible to make it clear.
+If you don't know where to start, it's probably better to head into ```src/components/app.js```
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/Sashkan/ft_youtube.git
+> cd ft_youtube
 > npm install
 > npm start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
