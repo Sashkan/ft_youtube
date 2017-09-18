@@ -6,6 +6,7 @@ const VideoDetail = ({video}) => {
 	}
 
 	const videoId = video.id.videoId;
+	// This is how you include a variable inside of a string
 	const url = `https://www.youtube.com/embed/${videoId}`;
 
 	return (

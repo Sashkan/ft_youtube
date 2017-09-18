@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
-const VideoListItem = ({video}) => {
+// When expecting only one prop, you can use this syntaxt instead of (props) and then {props.stuff}
+const VideoListItem = ({video, onVideoSelect}) => {
 	const imgUrl = video.snippet.thumbnails.default.url;
 
 	return (
-		<li className="list-group-item">
+		<li onClick={() => onVideoSelect(video)} className="list-group-item">
 			<div className="video-list media">
 				<div className="media-left">
 					<img src={imgUrl} className="media-object"/>
